@@ -15,6 +15,18 @@
 
     </div>
 
+    <div style="border: thin black">
+        <h4>Biography </h4>
+        <form action="FormBuilder.php" method="post">
+            Licence Country: <input type="text " name="licenseCountry">
+            Licence Number: <input type="text " name="licenseNo">
+            Years is practice: <input type="text " name="yearsInPractice">
+            Gender: <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+
+        </form>
+
+    </div>
 </div>
 
 </body>
