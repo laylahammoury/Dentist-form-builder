@@ -19,11 +19,22 @@
         <h4>Biography </h4>
         <form action="FormBuilder.php" method="post">
             Licence Country: <input type="text " name="licenseCountry">
-            Licence Number: <input type="text " name="licenseNo">
-            Years is practice: <input type="text " name="yearsInPractice">
+            Licence Number: <input type="number" name="licenseNo">
+            Years is practice: <input type="number" name="yearsInPractice">
             Gender: <input type="radio" name="gender" value="Male"> Male
             <input type="radio" name="gender" value="Female"> Female
 
+        </form>
+
+    </div>
+    <div style="border: thin black">
+        <h4>Education </h4>
+        <form action="FormBuilder.php" method="post">
+           Degree: <input type="text " name="degree">
+            year: <input type="number" name="year">
+             major: <input type="text " name="major">
+            school: <input type="text" name="school" > e
+            <input type="button" name="addMore" value="ADD MORE!">
         </form>
 
     </div>
