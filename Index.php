@@ -38,9 +38,19 @@
         </form>
 
     </div>
+    <div style="border: thin black">
+        <form action="FormBuilder.php" method="post">
+            Country: <input type="text" name="country">
+            City: <input type="text" name="city">
+            State: <input type="text" name="state">
+            Postal Code: <input type="text" name="postalCode">
+
+        </form>
+
+    </div>
 </div>
 
 </body>
 </html>
 
-<?php
+
