@@ -1,10 +1,21 @@
 <?php
 
 
-interface FormBuilder
+class FormBuilder implements FormBuilderInterface
 {
-    public function buildPerson();
-    public function buildCertification();
-    public function buildAddress();
 
+    public function buildPerson()
+    {
+        // TODO: Implement buildPerson() method.
+    }
+
+    public function buildCertification()
+    {
+        // TODO: Implement buildCertification() method.
+    }
+
+    public function buildAddress()
+    {
+        // TODO: Implement buildAddress() method.
+    }
 }
