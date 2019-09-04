@@ -23,6 +23,7 @@ class Education
         $this->year = $year;
     }
 
+
 //setters
     public function setDegree($degree)  {$this->degree = $degree;}
     public function setMajor($major)    {$this->major = $major;}
