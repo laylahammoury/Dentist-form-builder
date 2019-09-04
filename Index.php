@@ -33,7 +33,7 @@
         <form action="FormBuilderInterface .php" method="post">
            Degree: <input type="text " name="degree">
             year: <input type="number" name="year">
-             major: <input type="text " name="major">
+            major: <input type="text " name="major">
             school: <input type="text" name="school" >
             <input type="submit" value="submit">
             <input type="button" name="addMore" value="ADD MORE!">

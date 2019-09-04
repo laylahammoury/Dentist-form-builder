@@ -23,68 +23,16 @@ class Education
         $this->year = $year;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getDegree()
-    {
-        return $this->degree;
-    }
+//setters
+    public function setDegree($degree)  {$this->degree = $degree;}
+    public function setMajor($major)    {$this->major = $major;}
+    public function setSchool($school)    {$this->school = $school;}
+    public function setYear($year)    {$this->year = $year;}
 
-    /**
-     * @param mixed $degree
-     */
-    public function setDegree($degree)
-    {
-        $this->degree = $degree;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getMajor()
-    {
-        return $this->major;
-    }
-
-    /**
-     * @param mixed $major
-     */
-    public function setMajor($major)
-    {
-        $this->major = $major;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getSchool()
-    {
-        return $this->school;
-    }
-
-    /**
-     * @param mixed $school
-     */
-    public function setSchool($school)
-    {
-        $this->school = $school;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getYear()
-    {
-        return $this->year;
-    }
-
-    /**
-     * @param mixed $year
-     */
-    public function setYear($year)
-    {
-        $this->year = $year;
-    }
+//getters
+    public function getDegree() : string    {return $this->degree;}
+    public function getMajor() : string    {return $this->major;}
+    public function getYear() : int    {return $this->year;}
+    public function getSchool() : string    {return $this->school;}
 
 }
