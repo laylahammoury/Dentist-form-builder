@@ -24,13 +24,13 @@ class Education
     }
 
 
-//setters
+    //setters
     public function setDegree($degree)  {$this->degree = $degree;}
     public function setMajor($major)    {$this->major = $major;}
     public function setSchool($school)    {$this->school = $school;}
     public function setYear($year)    {$this->year = $year;}
 
-//getters
+    //getters
     public function getDegree() : string    {return $this->degree;}
     public function getMajor() : string    {return $this->major;}
     public function getYear() : int    {return $this->year;}
