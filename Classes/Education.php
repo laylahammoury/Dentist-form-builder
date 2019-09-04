@@ -9,6 +9,21 @@ class Education
     var $year;
 
     /**
+     * Education constructor.
+     * @param $degree
+     * @param $major
+     * @param $school
+     * @param $year
+     */
+    public function __construct($degree, $major, $school, $year)
+    {
+        $this->degree = $degree;
+        $this->major = $major;
+        $this->school = $school;
+        $this->year = $year;
+    }
+
+    /**
      * @return mixed
      */
     public function getDegree()
