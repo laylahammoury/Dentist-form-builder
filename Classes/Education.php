@@ -1,7 +1,7 @@
 <?php
 
 
-class Certificate
+class Education
 {
     var $degree;
     var $major;

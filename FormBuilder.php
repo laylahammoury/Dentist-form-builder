@@ -9,9 +9,9 @@ class FormBuilder implements FormBuilderInterface
         $person = new Person();
     }
 
-    public function buildCertification()
+    public function buildEducation()
     {
-       $certificate = new Certificate();
+       $certificate = new Education();
     }
 
     public function buildAddress()

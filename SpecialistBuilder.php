@@ -11,7 +11,7 @@ class SpecialistBuilder extends FormBuilder
 
     public function buildCertification()
     {
-    $certificate = new Certificate();
+    $certificate = new Education();
     }
 
     public function buildAddress()
