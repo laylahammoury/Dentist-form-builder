@@ -3,19 +3,19 @@
 
 class FormBuilder implements FormBuilderInterface
 {
-
+    var $stringTest =  "temp";
     public function buildPerson()
     {
-        // TODO: Implement buildPerson() method.
+        $person = new Person();
     }
 
     public function buildCertification()
     {
-        // TODO: Implement buildCertification() method.
+       $certificate = new Certificate();
     }
 
     public function buildAddress()
     {
-        // TODO: Implement buildAddress() method.
+       $address = new Address();
     }
 }

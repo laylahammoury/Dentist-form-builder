@@ -1,7 +1,7 @@
 <?php
 
 
-class SpecialistBuilder implements FormBuilder
+class SpecialistBuilder extends FormBuilder
 {
 
     public function buildPerson()
