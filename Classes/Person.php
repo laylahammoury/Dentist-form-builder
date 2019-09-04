@@ -13,6 +13,18 @@ class Person
     var $licenceNo;
     var $yearsInPractice;
 
+    public function __construct()
+    {
+        $this->firstName = "person's first name ";
+        $this->lastName = "person's last name ";
+        $this->gender = "Male";
+        $this->email = "email@sponsor.com";
+        $this->website = "www.website.com";
+        $this->phoneNo = "0599999999";
+        $this->licenceCountryNo = "2222";
+        $this->licenceNo = "444444555555";
+        $this->yearsInPractice = "6";
+    }
     /**
      * @return mixed
      */
