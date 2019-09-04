@@ -18,37 +18,12 @@ class Specialization
         $this->startYear = $startYear;
     }
 
+    //setters
+    public function setAreaOfStudy($areaOfStudy)    {$this->areaOfStudy = $areaOfStudy;}
+    public function setStartYear($startYear)    {$this->startYear = $startYear;}
 
-    /**
-     * @return mixed
-     */
-    public function getAreaOfStudy()
-    {
-        return $this->areaOfStudy;
-    }
-
-    /**
-     * @param mixed $areaOfStudy
-     */
-    public function setAreaOfStudy($areaOfStudy)
-    {
-        $this->areaOfStudy = $areaOfStudy;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getStartYear()
-    {
-        return $this->startYear;
-    }
-
-    /**
-     * @param mixed $startYear
-     */
-    public function setStartYear($startYear)
-    {
-        $this->startYear = $startYear;
-    }
+    //getters
+    public function getAreaOfStudy() :string    {return $this->areaOfStudy;}
+    public function getStartYear() :int     {return $this->startYear;}
 
 }

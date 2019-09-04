@@ -49,8 +49,7 @@ class Person
     public function setLicenceNo($licenceNo)    {$this->licenceNo = $licenceNo;}
     public function setYearsInPractice($yearsInPractice)    {$this->yearsInPractice = $yearsInPractice;}
 
-
-//getters
+    //getters
     public function getFirstName() : string    {return $this->firstName;}
     public function getLastName() :string     {return $this->lastName;}
     public function getGender() :string     {return $this->gender;}
