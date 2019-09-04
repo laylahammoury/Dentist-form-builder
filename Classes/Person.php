@@ -38,149 +38,27 @@ class Person
         $this->yearsInPractice = $yearsInPractice;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getFirstName()
-    {
-        return $this->firstName;
-    }
+   //setters
+    public function setFirstName($firstName)    {$this->firstName = $firstName;}
+    public function setLastName($lastName)    {$this->lastName = $lastName;}
+    public function setGender($gender)    {$this->gender = $gender;}
+    public function setEmail($email)    {$this->email = $email;}
+    public function setWebsite($website)    {$this->website = $website;}
+    public function setPhoneNo($phoneNo)    {$this->phoneNo = $phoneNo;}
+    public function setLicenceCountryNo($licenceCountryNo)    {$this->licenceCountryNo = $licenceCountryNo;}
+    public function setLicenceNo($licenceNo)    {$this->licenceNo = $licenceNo;}
+    public function setYearsInPractice($yearsInPractice)    {$this->yearsInPractice = $yearsInPractice;}
 
-    /**
-     * @param mixed $firstName
-     */
-    public function setFirstName($firstName)
-    {
-        $this->firstName = $firstName;
-    }
 
-    /**
-     * @return mixed
-     */
-    public function getLastName()
-    {
-        return $this->lastName;
-    }
-
-    /**
-     * @param mixed $lastName
-     */
-    public function setLastName($lastName)
-    {
-        $this->lastName = $lastName;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getGender()
-    {
-        return $this->gender;
-    }
-
-    /**
-     * @param mixed $gender
-     */
-    public function setGender($gender)
-    {
-        $this->gender = $gender;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    /**
-     * @param mixed $email
-     */
-    public function setEmail($email)
-    {
-        $this->email = $email;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getWebsite()
-    {
-        return $this->website;
-    }
-
-    /**
-     * @param mixed $website
-     */
-    public function setWebsite($website)
-    {
-        $this->website = $website;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPhoneNo()
-    {
-        return $this->phoneNo;
-    }
-
-    /**
-     * @param mixed $phoneNo
-     */
-    public function setPhoneNo($phoneNo)
-    {
-        $this->phoneNo = $phoneNo;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getLicenceCountryNo()
-    {
-        return $this->licenceCountryNo;
-    }
-
-    /**
-     * @param mixed $licenceCountryNo
-     */
-    public function setLicenceCountryNo($licenceCountryNo)
-    {
-        $this->licenceCountryNo = $licenceCountryNo;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getLicenceNo()
-    {
-        return $this->licenceNo;
-    }
-
-    /**
-     * @param mixed $licenceNo
-     */
-    public function setLicenceNo($licenceNo)
-    {
-        $this->licenceNo = $licenceNo;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getYearsInPractice()
-    {
-        return $this->yearsInPractice;
-    }
-
-    /**
-     * @param mixed $yearsInPractice
-     */
-    public function setYearsInPractice($yearsInPractice)
-    {
-        $this->yearsInPractice = $yearsInPractice;
-    }
-
+//getters
+    public function getFirstName() : string    {return $this->firstName;}
+    public function getLastName() :string     {return $this->lastName;}
+    public function getGender() :string     {return $this->gender;}
+    public function getEmail()     {return $this->email;}
+    public function getWebsite()    {return $this->website;}
+    public function getPhoneNo() :int    {return $this->phoneNo;}
+    public function getLicenceCountryNo() :int     {return $this->licenceCountryNo;}
+    public function getLicenceNo(): int     {return $this->licenceNo;}
+    public function getYearsInPractice() :int     {return $this->yearsInPractice;}
 
 }
