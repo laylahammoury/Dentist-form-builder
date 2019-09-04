@@ -6,6 +6,6 @@ class SpecialistBuilder extends FormBuilder
 
     public function buildSpecialization()
     {
-    $specialization = new Specialization();
+    $specialization = new Specialization("Algorithm developing", "2021");
     }
 }
