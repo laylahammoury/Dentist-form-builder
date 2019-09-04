@@ -11,6 +11,23 @@ class Address
     var $postalCode;
 
     /**
+     * Address constructor.
+     * @param $country
+     * @param $state
+     * @param $city
+     * @param $street
+     * @param $postalCode
+     */
+    public function __construct($country, $state, $city, $street, $postalCode)
+    {
+        $this->country = $country;
+        $this->state = $state;
+        $this->city = $city;
+        $this->street = $street;
+        $this->postalCode = $postalCode;
+    }
+
+    /**
      * @return mixed
      */
     public function getCountry()

@@ -13,7 +13,8 @@ class Person
     var $licenceNo;
     var $yearsInPractice;
 
-    public function __construct()
+
+ /*   public function __construct()
     {
         $this->firstName = "person's first name ";
         $this->lastName = "person's last name ";
@@ -25,6 +26,32 @@ class Person
         $this->licenceNo = "444444555555";
         $this->yearsInPractice = "6";
     }
+ */
+    /**
+     * Person constructor.
+     * @param $firstName
+     * @param $lastName
+     * @param $gender
+     * @param $email
+     * @param $website
+     * @param $phoneNo
+     * @param $licenceCountryNo
+     * @param $licenceNo
+     * @param $yearsInPractice
+     */
+    public function __construct($firstName, $lastName, $gender, $email, $website, $phoneNo, $licenceCountryNo, $licenceNo, $yearsInPractice)
+    {
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+        $this->gender = $gender;
+        $this->email = $email;
+        $this->website = $website;
+        $this->phoneNo = $phoneNo;
+        $this->licenceCountryNo = $licenceCountryNo;
+        $this->licenceNo = $licenceNo;
+        $this->yearsInPractice = $yearsInPractice;
+    }
+
     /**
      * @return mixed
      */
